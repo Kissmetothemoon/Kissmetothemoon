@@ -15,7 +15,7 @@
 ### 👋 About Me
 
 - 🔬 Researcher in **AI Infrastructure** at **Beihang University**, focusing on **efficient LLM inference** and **compute-in-memory (CiM) architectures**
-- ⚡ Creator of **[ASD](https://github.com/Kissmetothemoon/ASD)** — a bounded-regret *Approximate Speculative Decoding* acceptance policy for DSpark speculative decoding in [SGLang](https://github.com/sgl-project/sglang)
+- ⚡ Creator of **[ASD](https://github.com/Kissmetothemoon/ASD)** — a bounded-regret *Approximate Speculative Decoding* acceptance policy for speculative decoding ([arXiv:2608.03447](https://arxiv.org/abs/2608.03447))
 - 📷 Photography enthusiast — find my works on [Xiaohongshu](https://www.xiaohongshu.com/user/profile/68cba2df000000002102beb5) and [Douyin](https://www.douyin.com/user/self?from_tab_name=kissmetothemoon)
 - 📫 Reach me at **yanruo.f@gmail.com** (or **ynfeng@buaa.edu.cn**)
 
@@ -33,7 +33,7 @@
 
 ### ⚡ Featured Open Source
 
-**[ASD](https://github.com/Kissmetothemoon/ASD)** — Approximate Speculative Decoding acceptance policy for DSpark (SGLang).
+**[ASD](https://github.com/Kissmetothemoon/ASD)** — Approximate Speculative Decoding acceptance policy ([arXiv:2608.03447](https://arxiv.org/abs/2608.03447)).
 Relaxes strict greedy verification by admitting draft tokens whose regret stays within a per-request bounded budget; exact verification is recovered at budget B = 0. Apache-2.0.
 
 ### 📝 Latest Blog Posts
