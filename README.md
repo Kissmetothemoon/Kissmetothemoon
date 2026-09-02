@@ -17,7 +17,7 @@
 - 🔬 Researcher in **AI Infrastructure** at **Beihang University**, focusing on **efficient LLM inference** and **compute-in-memory (CiM) architectures**
 - ⚡ Creator of **[ASD](https://github.com/Kissmetothemoon/ASD)** — a bounded-regret *Approximate Speculative Decoding* acceptance policy for DSpark speculative decoding in [SGLang](https://github.com/sgl-project/sglang)
 - 📷 Photography enthusiast — find my works on [Xiaohongshu](https://www.xiaohongshu.com/user/profile/68cba2df000000002102beb5) and [Douyin](https://www.douyin.com/user/self?from_tab_name=kissmetothemoon)
-- 📫 Reach me at **yanruo.f@gmail.com**
+- 📫 Reach me at **yanruo.f@gmail.com** (or **ynfeng@buaa.edu.cn**)
 
 <!-- 可选：贡献蛇形动画（由 .github/workflows/snake.yml 每日自动生成）。
      学术风做减法时可整段删除。 -->
@@ -28,8 +28,8 @@
 
 ### 🔍 Research Interests
 
-- **Efficient LLM Inference** — speculative decoding, serving systems, KV-cache & scheduling optimization
-- **Compute-in-Memory Architectures** — analog CiM accelerators, noise-aware matrix multiplication
+- **Current: AI Infrastructure for Efficient Inference** — speculative decoding ([ASD](https://arxiv.org/abs/2608.03447)), serving systems; currently working on efficient inference for **Diffusion Language Models (DLMs)**
+- **Past: Compute-in-Memory Co-optimization** — noise-aware training, robust neural network & LLM deployment on analog CiM hardware ([HPD](https://scholar.google.com/citations?user=3PW4loAAAAAJ), [STE](https://scholar.google.com/citations?user=3PW4loAAAAAJ), [ROMER](https://arxiv.org/abs/2605.11800), [KV-cache protection](https://arxiv.org/abs/2607.29076))
 
 ### ⚡ Featured Open Source
 
