@@ -8,7 +8,7 @@
 *Efficient LLM inference, from algorithms to silicon.*
 
 [![Homepage](https://img.shields.io/badge/Homepage-kissmetothemoon.github.io-4362F6?style=flat)](https://kissmetothemoon.github.io)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=TODO_SCHOLAR_ID)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=3PW4loAAAAAJ)
 [![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-小红书-FF2442?style=flat)](https://www.xiaohongshu.com/user/profile/68cba2df000000002102beb5)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-6A5ACD?style=flat)](mailto:yanruo.f@gmail.com)
 
@@ -16,7 +16,7 @@
 
 - 🔬 Researcher in **AI Infrastructure** at **Beihang University**, focusing on **efficient LLM inference** and **compute-in-memory (CiM) architectures**
 - ⚡ Creator of **[ASD](https://github.com/Kissmetothemoon/ASD)** — a bounded-regret *Approximate Speculative Decoding* acceptance policy for DSpark speculative decoding in [SGLang](https://github.com/sgl-project/sglang)
-- 📚 Currently surveying **Diffusion Language Models (DLMs)** and their efficient inference
+- 📷 Photography enthusiast — find my works on [Xiaohongshu](https://www.xiaohongshu.com/user/profile/68cba2df000000002102beb5) and [Douyin](https://www.douyin.com/user/self?from_tab_name=kissmetothemoon)
 - 📫 Reach me at **yanruo.f@gmail.com**
 
 <!-- 可选：贡献蛇形动画（由 .github/workflows/snake.yml 每日自动生成）。
@@ -30,7 +30,6 @@
 
 - **Efficient LLM Inference** — speculative decoding, serving systems, KV-cache & scheduling optimization
 - **Compute-in-Memory Architectures** — analog CiM accelerators, noise-aware matrix multiplication
-- **Diffusion Language Models** — parallel decoding and its system-level implications
 
 ### ⚡ Featured Open Source
 
