@@ -9,6 +9,7 @@
 
 [![Homepage](https://img.shields.io/badge/Homepage-kissmetothemoon.github.io-4362F6?style=flat)](https://kissmetothemoon.github.io)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=TODO_SCHOLAR_ID)
+[![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-小红书-FF2442?style=flat)](https://www.xiaohongshu.com/user/profile/68cba2df000000002102beb5)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-6A5ACD?style=flat)](mailto:yanruo.f@gmail.com)
 
 ### 👋 About Me
