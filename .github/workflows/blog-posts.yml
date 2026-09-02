@@ -1,0 +1,27 @@
+# 博客文章列表自动同步（从 al-folio 网站 RSS 拉取最新文章写入 README）
+# 目标路径：Kissmetothemoon/Kissmetothemoon 仓库下的 .github/workflows/blog-posts.yml
+name: Latest Blog Posts
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # 每日 UTC 01:00 同步
+  workflow_dispatch:    # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull latest blog posts from homepage RSS
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # al-folio 默认 RSS 路径为 /feed.xml；网站上线前本 workflow 会运行失败，属正常现象
+          feed_list: "https://kissmetothemoon.github.io/feed.xml"
+          max_post_count: "5"
+          date_format: "yyyy-mm-dd"
+          template: "- [$title]($url) ($date)$newline"
