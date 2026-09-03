@@ -38,7 +38,7 @@ Relaxes strict greedy verification by admitting draft tokens whose regret stays 
 
 ### 📝 Latest Blog Posts
 
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START -->- [ASD: Trading a Bounded Regret Budget for Faster Speculative Decoding](https://kissmetothemoon.github.io/blog/2026/asd-bounded-regret/) (2026-09-02)
 <!-- BLOG-POST-LIST:END -->
 *(auto-updated daily from [my homepage](https://kissmetothemoon.github.io) via GitHub Actions)*
 
