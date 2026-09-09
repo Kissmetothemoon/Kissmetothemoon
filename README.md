@@ -38,10 +38,3 @@ Relaxes strict greedy verification by admitting draft tokens whose regret stays 
 *(auto-updated daily from [my homepage](https://kissmetothemoon.github.io) via GitHub Actions)*
 
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kissmetothemoon&show_icons=true&theme=transparent&hide_title=true&hide_border=true&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kissmetothemoon&layout=compact&langs_count=8&theme=transparent&hide_title=true&hide_border=true"/>
-</p>
-
-### 🛠️ Tech Stack
-
-<img src="https://skillicons.dev/icons?i=py,pytorch,cuda,cpp,latex,git,linux,docker"/>
