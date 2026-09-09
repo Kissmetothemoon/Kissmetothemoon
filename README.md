@@ -1,9 +1,4 @@
-<!-- ============================================================
-  GitHub Profile README for Kissmetothemoon
-  使用前请搜索 "TODO"，完成 2 处个性化替换（约 5 分钟）：
-    1. TODO_SCHOLAR_ID  —— 您的 Google Scholar 用户 ID
-    2. TODO_STATS       —— 按 SETUP_GUIDE 第 3 节部署个人 Vercel 实例后替换统计卡 URL
-============================================================ -->
+
 
 *Efficient LLM inference, from algorithms to silicon.*
 
@@ -42,10 +37,7 @@ Relaxes strict greedy verification by admitting draft tokens whose regret stays 
 <!-- BLOG-POST-LIST:END -->
 *(auto-updated daily from [my homepage](https://kissmetothemoon.github.io) via GitHub Actions)*
 
-### 📊 GitHub Stats
 
-<!-- TODO_STATS: 公共实例可能被限流（图片偶发不显示），部署个人 Vercel 实例后替换下方两处域名 -->
-<p>
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kissmetothemoon&show_icons=true&theme=transparent&hide_title=true&hide_border=true&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kissmetothemoon&layout=compact&langs_count=8&theme=transparent&hide_title=true&hide_border=true"/>
 </p>
