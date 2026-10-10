@@ -31,6 +31,13 @@
 **[ASD](https://github.com/Kissmetothemoon/ASD)** — Approximate Speculative Decoding acceptance policy ([arXiv:2608.03447](https://arxiv.org/abs/2608.03447)).
 Relaxes strict greedy verification by admitting draft tokens whose regret stays within a per-request bounded budget; exact verification is recovered at budget B = 0. Apache-2.0.
 
+**[ASD for Transformers](https://huggingface.co/ynFeng/approximate-speculative-decoding)** — ASD as a Hugging Face [`custom_generate`](https://huggingface.co/ynFeng/approximate-speculative-decoding) method (transformers 5.19.x), token-identical to strict verification at B = 0.
+```python
+model.generate(..., assistant_model=draft,
+    custom_generate="ynFeng/approximate-speculative-decoding", trust_remote_code=True,
+    assistant_asd_budget=2.0, assistant_asd_local_ratio=0.25, assistant_asd_max_mismatches=2)
+```
+
 ### 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->- [ASD: Trading a Bounded Regret Budget for Faster Speculative Decoding](https://kissmetothemoon.github.io/blog/2026/asd-bounded-regret/) (2026-09-02)
