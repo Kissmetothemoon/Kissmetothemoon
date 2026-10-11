@@ -9,7 +9,7 @@
 
 ### 👋 About Me
 
-- 🔬 Researcher in **AI Infrastructure** at **Beihang University**, focusing on **efficient LLM inference** and **compute-in-memory (CiM) architectures**
+- 🔬 Researcher in **AI Infrastructure** at **Beihang University**, Bytedance intern, focusing on **efficient LLM inference** and **compute-in-memory (CiM) architectures**
 - ⚡ Creator of **[ASD](https://github.com/Kissmetothemoon/ASD)** — a bounded-regret *Approximate Speculative Decoding* acceptance policy for speculative decoding ([arXiv:2608.03447](https://arxiv.org/abs/2608.03447))
 - 📷 Photography enthusiast — find my works on [Xiaohongshu](https://www.xiaohongshu.com/user/profile/68cba2df000000002102beb5) and [Douyin](https://www.douyin.com/user/self?from_tab_name=kissmetothemoon)
 - 📫 Reach me at **yanruo.f@gmail.com** (or **ynfeng@buaa.edu.cn**)
