@@ -9,8 +9,9 @@
 
 ### 👋 About Me
 
-- 🔬 Researcher in **AI Infrastructure** at **Beihang University**, Bytedance intern, focusing on **efficient LLM inference** and **compute-in-memory (CiM) architectures**
+- 🔬 Researcher in **AI Infrastructure** at **Beihang University**, ByteDance intern, focusing on **efficient LLM inference** and **compute-in-memory (CiM) architectures**
 - ⚡ Creator of **[ASD](https://github.com/Kissmetothemoon/ASD)** — a bounded-regret *Approximate Speculative Decoding* acceptance policy for speculative decoding ([arXiv:2608.03447](https://arxiv.org/abs/2608.03447))
+- 🧩 Creator of **[SetCommit](https://github.com/Kissmetothemoon/SetCommit)** — coordinated token commitments for few-step **Diffusion Language Model** decoding (training-free, no extra forwards)
 - 📷 Photography enthusiast — find my works on [Xiaohongshu](https://www.xiaohongshu.com/user/profile/68cba2df000000002102beb5) and [Douyin](https://www.douyin.com/user/self?from_tab_name=kissmetothemoon)
 - 📫 Reach me at **yanruo.f@gmail.com** (or **ynfeng@buaa.edu.cn**)
 
@@ -23,13 +24,16 @@
 
 ### 🔍 Research Interests
 
-- **Current: AI Infrastructure for Efficient Inference** — speculative decoding ([ASD](https://arxiv.org/abs/2608.03447)), serving systems; currently working on efficient inference for **Diffusion Language Models (DLMs)**
+- **Current: AI Infrastructure for Efficient Inference** — speculative decoding ([ASD](https://arxiv.org/abs/2608.03447)), serving systems; currently working on efficient inference for **Diffusion Language Models (DLMs)** ([SetCommit](https://github.com/Kissmetothemoon/SetCommit))
 - **Past: Compute-in-Memory Co-optimization** — noise-aware training, robust neural network & LLM deployment on analog CiM hardware ([HPD](https://scholar.google.com/citations?user=3PW4loAAAAAJ), [STE](https://scholar.google.com/citations?user=3PW4loAAAAAJ), [ROMER](https://arxiv.org/abs/2605.11800), [KV-cache protection](https://arxiv.org/abs/2607.29076))
 
 ### ⚡ Featured Open Source
 
 **[ASD](https://github.com/Kissmetothemoon/ASD)** — Approximate Speculative Decoding acceptance policy ([arXiv:2608.03447](https://arxiv.org/abs/2608.03447)).
 Relaxes strict greedy verification by admitting draft tokens whose regret stays within a per-request bounded budget; exact verification is recovered at budget B = 0. Apache-2.0.
+
+**[SetCommit](https://github.com/Kissmetothemoon/SetCommit)** — coordinated token commitments for few-step diffusion LM decoding ([blog post](https://kissmetothemoon.github.io/blog/2026/setcommit-coordinated-token-commitments/)).
+Training-free set-selection layer that coordinates *which* tokens commit at each denoising step; +7.4 pp accuracy at 32 NFE and 1.44–1.74x geometric-mean speedup on LLaDA-8B / Dream-7B. MIT.
 
 **[ASD for Transformers](https://huggingface.co/ynFeng/approximate-speculative-decoding)** — ASD as a Hugging Face [`custom_generate`](https://huggingface.co/ynFeng/approximate-speculative-decoding) method (transformers 5.19.x), token-identical to strict verification at B = 0.
 ```python
