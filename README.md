@@ -44,7 +44,8 @@ model.generate(..., assistant_model=draft,
 
 ### 📝 Latest Blog Posts
 
-<!-- BLOG-POST-LIST:START -->- [ASD: Trading a Bounded Regret Budget for Faster Speculative Decoding](https://kissmetothemoon.github.io/blog/2026/asd-bounded-regret/) (2026-09-02)
+<!-- BLOG-POST-LIST:START -->- [SetCommit: Coordinating Parallel Token Commitments in Few-Step Diffusion Language Models](https://kissmetothemoon.github.io/blog/2026/setcommit-coordinated-token-commitments/) (2026-10-22)
+- [ASD: Trading a Bounded Regret Budget for Faster Speculative Decoding](https://kissmetothemoon.github.io/blog/2026/asd-bounded-regret/) (2026-09-02)
 <!-- BLOG-POST-LIST:END -->
 *(auto-updated daily from [my homepage](https://kissmetothemoon.github.io) via GitHub Actions)*
 
